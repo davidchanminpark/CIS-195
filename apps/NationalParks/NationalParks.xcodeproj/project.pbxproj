@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		851161D2255EA22700E612F8 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 851161D1255EA22700E612F8 /* Kingfisher */; };
+		851161D5255ED66100E612F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 851161D4255ED66100E612F8 /* GoogleService-Info.plist */; };
+		855BEC51255CF33F005B2BA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855BEC50255CF33F005B2BA0 /* AppDelegate.swift */; };
+		855BEC53255CF33F005B2BA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855BEC52255CF33F005B2BA0 /* SceneDelegate.swift */; };
+		855BEC55255CF33F005B2BA0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855BEC54255CF33F005B2BA0 /* DetailViewController.swift */; };
+		855BEC58255CF33F005B2BA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855BEC56255CF33F005B2BA0 /* Main.storyboard */; };
+		855BEC5A255CF340005B2BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 855BEC59255CF340005B2BA0 /* Assets.xcassets */; };
+		855BEC5D255CF340005B2BA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855BEC5B255CF340005B2BA0 /* LaunchScreen.storyboard */; };
+		855BEC67255D2131005B2BA0 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855BEC66255D2131005B2BA0 /* MainTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		851161D4255ED66100E612F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		855BEC4D255CF33F005B2BA0 /* NationalParks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NationalParks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		855BEC50255CF33F005B2BA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		855BEC52255CF33F005B2BA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		855BEC54255CF33F005B2BA0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		855BEC57255CF33F005B2BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		855BEC59255CF340005B2BA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		855BEC5C255CF340005B2BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		855BEC5E255CF340005B2BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		855BEC66255D2131005B2BA0 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		855BEC4A255CF33F005B2BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851161D2255EA22700E612F8 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		855BEC44255CF33F005B2BA0 = {
+			isa = PBXGroup;
+			children = (
+				855BEC4F255CF33F005B2BA0 /* NationalParks */,
+				855BEC4E255CF33F005B2BA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		855BEC4E255CF33F005B2BA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				855BEC4D255CF33F005B2BA0 /* NationalParks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		855BEC4F255CF33F005B2BA0 /* NationalParks */ = {
+			isa = PBXGroup;
+			children = (
+				855BEC50255CF33F005B2BA0 /* AppDelegate.swift */,
+				855BEC52255CF33F005B2BA0 /* SceneDelegate.swift */,
+				855BEC54255CF33F005B2BA0 /* DetailViewController.swift */,
+				855BEC66255D2131005B2BA0 /* MainTableViewController.swift */,
+				855BEC56255CF33F005B2BA0 /* Main.storyboard */,
+				855BEC59255CF340005B2BA0 /* Assets.xcassets */,
+				855BEC5B255CF340005B2BA0 /* LaunchScreen.storyboard */,
+				855BEC5E255CF340005B2BA0 /* Info.plist */,
+				851161D4255ED66100E612F8 /* GoogleService-Info.plist */,
+			);
+			path = NationalParks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		855BEC4C255CF33F005B2BA0 /* NationalParks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855BEC61255CF340005B2BA0 /* Build configuration list for PBXNativeTarget "NationalParks" */;
+			buildPhases = (
+				855BEC49255CF33F005B2BA0 /* Sources */,
+				855BEC4A255CF33F005B2BA0 /* Frameworks */,
+				855BEC4B255CF33F005B2BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NationalParks;
+			packageProductDependencies = (
+				851161D1255EA22700E612F8 /* Kingfisher */,
+			);
+			productName = NationalParks;
+			productReference = 855BEC4D255CF33F005B2BA0 /* NationalParks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		855BEC45255CF33F005B2BA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					855BEC4C255CF33F005B2BA0 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 855BEC48255CF33F005B2BA0 /* Build configuration list for PBXProject "NationalParks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 855BEC44255CF33F005B2BA0;
+			packageReferences = (
+				851161D0255EA22700E612F8 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 855BEC4E255CF33F005B2BA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				855BEC4C255CF33F005B2BA0 /* NationalParks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		855BEC4B255CF33F005B2BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855BEC5D255CF340005B2BA0 /* LaunchScreen.storyboard in Resources */,
+				851161D5255ED66100E612F8 /* GoogleService-Info.plist in Resources */,
+				855BEC5A255CF340005B2BA0 /* Assets.xcassets in Resources */,
+				855BEC58255CF33F005B2BA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		855BEC49255CF33F005B2BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855BEC67255D2131005B2BA0 /* MainTableViewController.swift in Sources */,
+				855BEC55255CF33F005B2BA0 /* DetailViewController.swift in Sources */,
+				855BEC51255CF33F005B2BA0 /* AppDelegate.swift in Sources */,
+				855BEC53255CF33F005B2BA0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		855BEC56255CF33F005B2BA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				855BEC57255CF33F005B2BA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		855BEC5B255CF340005B2BA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				855BEC5C255CF340005B2BA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		855BEC5F255CF340005B2BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		855BEC60255CF340005B2BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		855BEC62255CF340005B2BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NationalParks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ChanminPark.NationalParks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		855BEC63255CF340005B2BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NationalParks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ChanminPark.NationalParks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		855BEC48255CF33F005B2BA0 /* Build configuration list for PBXProject "NationalParks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855BEC5F255CF340005B2BA0 /* Debug */,
+				855BEC60255CF340005B2BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		855BEC61255CF340005B2BA0 /* Build configuration list for PBXNativeTarget "NationalParks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855BEC62255CF340005B2BA0 /* Debug */,
+				855BEC63255CF340005B2BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		851161D0255EA22700E612F8 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		851161D1255EA22700E612F8 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 851161D0255EA22700E612F8 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 855BEC45255CF33F005B2BA0 /* Project object */;
+}
