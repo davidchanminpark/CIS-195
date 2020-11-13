@@ -7,7 +7,7 @@
 
 import UIKit
 import Kingfisher
-import Firebase
+//import Firebase
 
 struct APIResponse: Codable {
     let data: [Park]
@@ -33,7 +33,7 @@ class ParkTableViewCell: UITableViewCell {
 class MainTableViewController: UITableViewController {
     
     
-    let db = Firestore.firestore()
+    //let db = Firestore.firestore()
     var rowSelected = 0
     var parks = [Park]()
     let apiEndpoint = "https://developer.nps.gov/api/v1/parks?limit=30&api_key=R7e9pDOuzEgOzGwEgcXlAmRWVfCDUgcuXJS2nGP1"
@@ -42,9 +42,9 @@ class MainTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        fetchParkData()
+        fetchParkData()
 //        writeParkData()
-        readParkData()
+//        readParkData()
     }
     
     private func fetchParkData() {
@@ -67,37 +67,37 @@ class MainTableViewController: UITableViewController {
         task.resume()
     }
     
-    private func writeParkData() {
-        for park in parks {
-            db.collection("parks").document(park.fullName).setData([
-                "fullName": park.fullName,
-                "description": park.description,
-                "type": park.designation,
-                "imageURL": !park.images.isEmpty ? park.images[0].url : ""
-            ]) { err in
-                if let err = err {
-                    print("error writing document: \(err)")
-                } else {
-                    print("doc successfully written")
-                }
-            }
-        }
-    }
-    
-    private func readParkData() {
-        db.collection("cities").getDocuments() { (querySnapshot, err) in
-            if let err = err {
-                print("Error getting documents: \(err)")
-            } else {
-                for document in querySnapshot!.documents {
-                    let park = document.data()
-                    let parkImages: [ParkImage] = park.imageURL == "" ? [] : [park.imageURL]
-                    let newPark = Park(fullName: park.fullName, images: parkImages, description: park.description, designation: park.type)
-                    parks.append(newPark)
-                }
-            }
-        }
-    }
+//    private func writeParkData() {
+//        for park in parks {
+//            db.collection("parks").document(park.fullName).setData([
+//                "fullName": park.fullName,
+//                "description": park.description,
+//                "type": park.designation,
+//                "imageURL": !park.images.isEmpty ? park.images[0].url : ""
+//            ]) { err in
+//                if let err = err {
+//                    print("error writing document: \(err)")
+//                } else {
+//                    print("doc successfully written")
+//                }
+//            }
+//        }
+//    }
+//
+//    private func readParkData() {
+//        db.collection("cities").getDocuments() { (querySnapshot, err) in
+//            if let err = err {
+//                print("Error getting documents: \(err)")
+//            } else {
+//                for document in querySnapshot!.documents {
+//                    let park = document.data()
+//                    let parkImages: [ParkImage] = park.imageURL == "" ? [] : [park.imageURL]
+//                    let newPark = Park(fullName: park.fullName, images: parkImages, description: park.description, designation: park.type)
+//                    parks.append(newPark)
+//                }
+//            }
+//        }
+//    }
     
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -147,8 +147,8 @@ class MainTableViewController: UITableViewController {
     }
 
     @objc func handleRefreshControl() {
-//        fetchParkData()
-        readParkData()
+        fetchParkData()
+        //readParkData()
         
         DispatchQueue.main.async {
             self.refreshControl?.endRefreshing()
